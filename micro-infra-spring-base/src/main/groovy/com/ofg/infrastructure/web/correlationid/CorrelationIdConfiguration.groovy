@@ -30,7 +30,7 @@ class CorrelationIdConfiguration {
 
     @Bean
     FilterRegistrationBean correlationHeaderFilter(UuidGenerator uuidGenerator) {
-        Pattern pattern = StringUtils.isBlank(skipPattern)? Pattern.compile(skipPattern) : CorrelationIdFilter.DEFAULT_SKIP_PATTERN
+        Pattern pattern = !StringUtils.isBlank(skipPattern)? Pattern.compile(skipPattern) : CorrelationIdFilter.DEFAULT_SKIP_PATTERN
         return new FilterRegistrationBean(new CorrelationIdFilter(uuidGenerator, pattern))
     }
 
