@@ -18,6 +18,13 @@ dependencies {
     compile 'args4j:args4j:2.0.29'
     compile 'javax.servlet:javax.servlet-api:3.0.1'
     compile 'com.nurkiewicz.asyncretry:asyncretry-jdk7:0.0.6'
+    compile 'org.eclipse.aether:aether:1.0.2.v20150114'
+    compile 'org.eclipse.aether:aether-connector-basic:1.0.2.v20150114'
+    compile 'org.eclipse.aether:aether-spi:1.0.2.v20150114'
+    compile 'org.eclipse.aether:aether-impl:1.0.2.v20150114'
+    compile 'org.eclipse.aether:aether-transport-file:1.0.2.v20150114'
+    compile 'org.eclipse.aether:aether-transport-http:1.0.2.v20150114'
+    compile 'org.apache.maven:maven-aether-provider:3.2.5'
 
     testCompile 'org.spockframework:spock-core'
     testCompile 'cglib:cglib-nodep'
