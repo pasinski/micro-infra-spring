@@ -262,3 +262,7 @@ Spring/groovy example can look like this
 
 If you are not using Spring for sure your REST library handles consumes/produces in a similar way. If it does not, then
 you probably should change your library ;-).
+
+## Project origins
+
+Project was merged from [micro-deps standalone project](https://github.com/4finance/micro-deps)

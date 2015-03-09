@@ -154,3 +154,7 @@ Every stubbed collaborator exposes list of defined mappings under `__/admin/` en
 ## Other projects basing on *stub-runner*
 
 - [Stub Runner Spring](https://github.com/4finance/micro-infra-spring/wiki/Stub-runner) - adds automatic downloading of the newest versions of stubs to your tests
+
+## Project origins
+
+Project was merged from [stub-runner standalone project](https://github.com/4finance/stub-runner)
